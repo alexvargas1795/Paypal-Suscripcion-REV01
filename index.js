@@ -48,9 +48,7 @@ app.get('/style.css', (req, res) => {
     res.sendFile(process.cwd() + '/style.css');
 });
 //Servers the script.js file
-app.get('/script.js', (req, res) => {
-    res.sendFile(process.cwd() + '/script.js');
-});
+
 
 //PayPal Developer YouTube Video:
 //How to Retrieve an API Access Token (Node.js)
